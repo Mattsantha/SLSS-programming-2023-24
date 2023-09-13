@@ -1,10 +1,18 @@
-# Headings 
+---
+tags:
+  - notes
+  - slss
+  - x2023
+  - Programming-lvl-2
+---
+
+# Headings
 We create heading in Markdown using hash (#) symbols
 To create subheading, we can use multiple has symbols 
 
 ## This is a level 2 subheading 
 ### This is a level 3 subheading
-###### This is a level 6 sub heading 
+###### This is a level 6 sub heading (Max lvl)
 # Modifying Text Style 
 We use asterisks (\*) to modify text styling, specifically bold and italics 
 e.g.
