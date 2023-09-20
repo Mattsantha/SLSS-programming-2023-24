@@ -36,3 +36,75 @@ We use the # symbol to make comments.
 	1. In 'onput and output.py1'
 	2. Put the header
 	3. Write in some comments
+
+# Input
+we can grab information from the user using input ().
+When we run the function, it does two things: 
+1. It waits for the user to write something or nothing
+2. The user presses **Enter/Return** to indicate that they are finished 
+
+```python
+input(
+
+input(<prompt>).  # prints out the prompt then wait
+)
+```
+
+## Variables 
+Variables allow us to store information for the time that our app is running
+
+```python
+favorite_food = input("What is your favorite food")
+```
+
+Favorite_food -> name of the variables
+= -> assignment operator
+input... -> value
+
+# Naming
+What you can do:
+1. name them with letters, umbers, underscore
+2. names **should** start with a lowercase letter
+What you can't do:
+1. you **Can't** name them with spaces or symbols
+2. you **can't** name them with certain names that are reserved
+	1. e.g. if, while, for, and, or,. ....
+
+A good name is something like this:
+```python
+favorite_food
+fave_food
+date_of_birth
+student_number
+```
+
+Bad names are like this
+```python
+Favorite_food
+a
+num
+aa
+aaa
+aaaa
+```
+
+# [[Strings]]
+
+# Design
+*The Design process* is the steps that we take when we create a solution to a problem 
+
+There are four steps in our design process
+
+## 1. Design our algorithm is English (or any human language)
+An algorithm is a sequence of steps to solve a problem.
+In class, before we start ANY programming, we write our steps in English.
+
+## 2. Translate our algorithm from english to python
+We'll translate our algorithm into "proper" Python
+
+## 3. test our Python Algorithm
+check if it works syntactically. In other words, we check to see if it BREAKS.
+Check if it works semantically. In other words, we ask does our algorithm actually solve the problem.
+
+## 4. Share our Work
+Once it solves the problem, ship your code to whoever
