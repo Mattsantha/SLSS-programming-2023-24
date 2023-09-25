@@ -4,7 +4,7 @@
 
 # Greet the user
 print("Hello there")
-print("I'm a crude Chatbot, here rto talk to you.")
+print("I'm a crude Chatbot, here to talk to you.")
 
 # Get the user's name and store it in a varible
 user_name = input("So... What's your name?")

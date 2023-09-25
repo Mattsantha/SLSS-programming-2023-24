@@ -2,7 +2,6 @@
 # Author Matt Santha
 # Date sept 25 2023
 
+# Create a bot that says BEEP BOOP
 
-print("Hello I am a Warmup Bot BEEP BOOP")
-user_name = input("Whats your name?")
-print(f"hello {user_name}")
+print("BEEP BOOP")
