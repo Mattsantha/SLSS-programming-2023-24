@@ -90,21 +90,9 @@ aaaa
 
 # [[Strings]]
 
-# Design
-*The Design process* is the steps that we take when we create a solution to a problem 
+# [[ Design]]
 
-There are four steps in our design process
+# [[Lists]]
 
-## 1. Design our algorithm is English (or any human language)
-An algorithm is a sequence of steps to solve a problem.
-In class, before we start ANY programming, we write our steps in English.
+# [[Modules]]
 
-## 2. Translate our algorithm from english to python
-We'll translate our algorithm into "proper" Python
-
-## 3. test our Python Algorithm
-check if it works syntactically. In other words, we check to see if it BREAKS.
-Check if it works semantically. In other words, we ask does our algorithm actually solve the problem.
-
-## 4. Share our Work
-Once it solves the problem, ship your code to whoever
