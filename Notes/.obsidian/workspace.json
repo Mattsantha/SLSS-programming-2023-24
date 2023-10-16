@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "651971a2862669eb",
+        "id": "32b77757dc5d7371",
         "type": "tabs",
         "children": [
           {
-            "id": "4f0b8933556514b9",
+            "id": "14c206165b476d67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Natural Language Processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73bc1e698e47b74c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Iteration.md",
+                "file": "Strings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Iteration.md",
+                "file": "Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Iteration.md",
+                "file": "Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Iteration.md"
+                "file": "Strings.md"
               }
             }
           },
@@ -169,18 +156,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73bc1e698e47b74c",
+  "active": "14c206165b476d67",
   "lastOpenFiles": [
+    "Natural Language Processing.md",
+    "Modules.md",
     "Conditionals.md",
+    "Boolean.md",
+    "Errors.md",
+    "Headers.md",
+    "Design.md",
     "Iteration.md",
     "Lists.md",
-    "Errors.md",
-    "Natural Language Processing.md",
     "Strings.md",
-    "Design.md",
-    "Modules.md",
-    "Boolean.md",
     "Markdown (Re)Introduction.md",
-    "Headers.md"
+    "Type.md"
   ]
 }

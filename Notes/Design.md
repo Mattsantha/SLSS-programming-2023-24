@@ -14,4 +14,4 @@ check if it works syntactically. In other words, we check to see if it BREAKS.
 Check if it works semantically. In other words, we ask does our algorithm actually solve the problem.
 
 ## 4. Share our Work
-Once it solves the problem, ship your code to whoeve
+Once it solves the problem, ship your code to whoever
