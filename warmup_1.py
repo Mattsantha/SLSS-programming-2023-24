@@ -6,28 +6,21 @@
 
 print("BEEP BOOP")
 
-some_string = "This is some string."
-print(some_string.upper().strip(".!").lower().split())
+saying = "this is cool"
+print(saying.lower().upper())
 
-for i in range(10): print("Loop dee scoop!")
+for i in range(10): print(i)
 
-words = ["tickle", "pop", "roll", "dance"]
-output = ""
-for word in words:
-  output = output + word[1]
-print(output)
+for i in range(0, 10, 2): print(i)
 
-is_raining = True
-is_cloudy = True
-is_sunny = True
-if is_raining:
-       if is_sunny:
-             print("Bring your shades and your umbrella!")
-       elif is_cloudy:
-             print("Brrrrr.")
+for i in range(-149, 0, 2):
+     print(i)
 
-adjectives = ["Golden", "Tiny", "Purple"]
-stars = ["Polaris", "Vega", "Sun"]
-for adj in adjectives:
-  for word in stars:
-    print(adj + word)
+some_list = ["beans", "magic", "beanstalk"]
+print(some_list[0][1])
+
+ubials_inventory = ["sword", "shield", "flask", "phone", "bigger sword"]
+print("SWORD".lower() in ubials_inventory)
+
+ubials_inventory = ["sword", "shield", "flask", "phone", "bigger sword"]
+if phone in ubials_inventory: print("raining")
