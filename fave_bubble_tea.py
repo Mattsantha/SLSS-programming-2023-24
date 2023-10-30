@@ -1,5 +1,5 @@
 #  Bubble Tea Popularity Algorithm
-# Author: Ubial
+# Author: Matt Santha
 # Date: 27 October 2023
 
 # Ask 5 users whta thier favorite bubble tea place is
