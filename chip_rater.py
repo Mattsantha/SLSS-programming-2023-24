@@ -31,4 +31,4 @@ for question in questions:
 average_score = final_score / len(questions)
 
 # Present the results to the user
-print(f"The avergae score of this chpi is: {average_score:.2f} / 5")
+print(f"The avergae score of this chip is: {average_score:.2f} / 5")

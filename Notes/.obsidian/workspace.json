@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numbers.md",
+                "file": "Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numbers.md",
+                "file": "Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numbers.md",
+                "file": "Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numbers.md"
+                "file": "Type.md"
               }
             }
           },
@@ -170,12 +170,12 @@
   },
   "active": "14c206165b476d67",
   "lastOpenFiles": [
+    "Iteration.md",
+    "Numbers.md",
     "Type.md",
     "Recommendations Systems.md",
-    "Numbers.md",
     "Quiz 1 - Template.md",
     "Strings.md",
-    "Iteration.md",
     "fave_bubble_tea.py",
     "Design.md",
     "Headers.md",
