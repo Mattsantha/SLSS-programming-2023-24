@@ -7,7 +7,6 @@ print("Welcome to McDonalds!")
 
 total_price = 0
 
-# Cost
 
 # Ask what they want to eat
 burger = input("Whould you like a buger for $5? (Yes/No)")
@@ -32,6 +31,7 @@ else: print("YES OR NO PLEASE!")
 tax = total_price * 0.14
 final_price = total_price + tax
 
+# Tell them their total price
 print(f"Your total price will be {final_price:.2f}. How would you like to pay?")
 
 

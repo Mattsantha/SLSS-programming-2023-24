@@ -17,5 +17,12 @@ for courses in range(courses_taking):
 
 # Avergae score
 
-if courses_num/courses_taking <= 1
+if courses_num/courses_taking <= 1:
+    print(f"{courses_num/courses_taking} Ouch!")
+
+elif 1< courses_num/courses_taking <3:
+    print(f"{courses_num/courses_taking} Not a bad semester.")
+
+else: print(f"{courses_num/courses_taking} Glad to hear it")
+
 
