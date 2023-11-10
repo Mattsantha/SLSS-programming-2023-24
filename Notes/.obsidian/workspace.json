@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendations Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendations Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendations Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type.md"
+                "file": "Recommendations Systems.md"
               }
             }
           },
@@ -170,12 +170,12 @@
   },
   "active": "14c206165b476d67",
   "lastOpenFiles": [
+    "Strings.md",
+    "Type.md",
     "Iteration.md",
     "Numbers.md",
-    "Type.md",
     "Recommendations Systems.md",
     "Quiz 1 - Template.md",
-    "Strings.md",
     "fave_bubble_tea.py",
     "Design.md",
     "Headers.md",
