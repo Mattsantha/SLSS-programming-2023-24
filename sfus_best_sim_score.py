@@ -12,14 +12,14 @@ with open("./data.csv") as f:
 # Read the first line of data
 
     f.readline()
-    print(f.readline())
+    
 
 # Create a "profile" for someone that shows their favourite places at SFU
 profile = [
     "Bubble World", 
     "Bamboo Graden",
     "Uncle Fatih's",
-    "Guadalupe",
+    "Guadalupe (MBC)",
     "Steve's Poke Bar"
 ]
 
@@ -50,12 +50,12 @@ with open("./data.csv") as f:
         print(f"{current_name} - Score: {current_sim_score}") 
 
         # if the cur score is > top sim score
-        if current_sim_score > top_sim_score:
+        if current_sim_score < top_sim_score:
             #upadte the top sim score and the name
             top_sim_score = current_sim_score
             top_sim_name = current_name
 
-print("🌟🌟🌟TOP SIMILAR PERSON!🌟🌟🌟")
+print("🌟🌟🌟LEAST SIMILAR PERSON!🌟🌟🌟")
 print(f"{top_sim_name} - Score: {top_sim_score}")
 
 
