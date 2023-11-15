@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lists.md",
+                "file": "Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lists.md",
+                "file": "Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lists.md",
+                "file": "Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lists.md"
+                "file": "Type.md"
               }
             }
           },
@@ -170,21 +170,21 @@
   },
   "active": "14c206165b476d67",
   "lastOpenFiles": [
+    "Markdown (Re)Introduction.md",
+    "Modules.md",
+    "Methods.md",
+    "Boolean.md",
+    "Lists.md",
+    "Iteration.md",
     "Recommendations Systems.md",
     "Strings.md",
     "Type.md",
-    "Iteration.md",
     "Numbers.md",
     "Quiz 1 - Template.md",
     "fave_bubble_tea.py",
     "Design.md",
     "Headers.md",
     "Conditionals.md",
-    "Methods.md",
-    "Modules.md",
-    "Boolean.md",
-    "Lists.md",
-    "Markdown (Re)Introduction.md",
     "Errors.md",
     "Natural Language Processing.md"
   ]
