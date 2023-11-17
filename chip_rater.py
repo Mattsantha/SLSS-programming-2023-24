@@ -8,7 +8,7 @@
 
 
 # Greet the user
-print("please answer the follwojg questions based on the chip you just ate.")
+print("please answer the following questions based on the chip you just ate.")
 
 # create a list of questions ot ask
 questions = [
