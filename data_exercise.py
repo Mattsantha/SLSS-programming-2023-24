@@ -68,7 +68,7 @@ a_people = 0
 with open("./data_example.csv", encoding="utf-8") as f:
     f.readline()
     for line in f:
-        if "A" in line[0]:
+        if "A" == line[0]:
             a_people += 1
 
 print(f"{a_people}: amount of A named people.")
@@ -96,8 +96,36 @@ creditcard_user = 0
 with open("./data_example.csv", encoding="utf-8") as f:
     f.readline()
     for line in f:
-        if 
+        if int(line.split(",")[3])%2==0:
+            creditcard_user += 1
+
+
+print(f"{creditcard_user} have even creditcard numbers.")
+        
 
 # Problem 8:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
+
+food_list = {'a':1}
+most_popular_food = 0
+popular_food_name = ""
+
+with open("./data_example.csv", encoding="utf-8") as f:
+    f.readline()
+    for line in f:
+        current_food = line.split(",")[1]
+        if current_food in food_list:
+            food_list[current_food]+=1
+        else:
+            food_list[current_food]=1
+
+for food in food_list:
+    if food_list[food] > most_popular_food:
+        most_popular_food = food_list[food]
+        popular_food_name = food
+
+print(f"{popular_food_name} is the most popular food.")
+    
+
+
