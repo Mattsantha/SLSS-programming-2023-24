@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "639e61d333b6a44e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3ae8f942f1b4be2b",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type.md",
+                "file": "Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type.md",
+                "file": "Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type.md"
+                "file": "Function.md"
               }
             }
           },
@@ -168,21 +181,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14c206165b476d67",
+  "active": "639e61d333b6a44e",
   "lastOpenFiles": [
     "Markdown (Re)Introduction.md",
-    "Modules.md",
-    "Methods.md",
-    "Boolean.md",
-    "Lists.md",
     "Iteration.md",
+    "Design.md",
+    "Boolean.md",
     "Recommendations Systems.md",
     "Strings.md",
     "Type.md",
+    "Function.md",
+    "Modules.md",
+    "Methods.md",
+    "Lists.md",
     "Numbers.md",
     "Quiz 1 - Template.md",
     "fave_bubble_tea.py",
-    "Design.md",
     "Headers.md",
     "Conditionals.md",
     "Errors.md",
