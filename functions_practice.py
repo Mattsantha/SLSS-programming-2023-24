@@ -55,7 +55,7 @@ def stars(num_stars: int) -> str:
 print(stars(100))
 
 # Queston 2
-def biggest_of_three(num_one: int, num_two: int, num_three: int) -> int:
+def biggest_of_three(num_one: float, num_two: float, num_three: float) -> float:
     """Returns the biggest number out of the three
     
     Params:
@@ -76,14 +76,43 @@ def biggest_of_three(num_one: int, num_two: int, num_three: int) -> int:
 
 print(biggest_of_three(1, 200, 100))
 
-#Question 3
-def pyramid(pyramid_stars: int) -> str:
-    """Returns a pyramid of stars
-    
+# Question 3
+def pyramid(num_layers: int) -> None:
+    """Prints out a pyramid of given number of layers.
+
     Params:
 
-    pyramid_stars - the number of layers of stars in the pyramid
+    num_layers - number of layers in the pyramid
     """
 
-    return 
+    for current_layer in range(1, num_layers + 1):
+        print(stars(current_layer))
 
+
+pyramid(5)
+pyramid(10)
+pyramid(20)
+
+
+# Question 4
+def pyramid_mirror(num_layers: int) -> None:
+    """Prints out a mirrored pyramid.
+
+    Params:
+    num_layers - number of layers of pyramid
+    """
+
+    for current_layer in range(1, num_layers + 1):
+        # Print the spaces then print the stars
+        # num_layers == 2
+        # " " * 1  +  stars(1)
+        # " " * 0   + stars(2)
+        # num_layers == 3
+        # " " * 2  + stars(1)
+        # " " * 1  + stars(2)
+        # " " * 0  + stars(3)
+        print(" " * (num_layers - current_layer) + stars(current_layer))
+
+pyramid_mirror(20)
+pyramid_mirror(30)
+pyramid_mirror(14)
