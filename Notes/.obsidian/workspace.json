@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +182,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "639e61d333b6a44e",
+  "active": "44c00a57048ca0ce",
   "lastOpenFiles": [
     "Recommendations Systems.md",
     "Quiz 1 - Template.md",

@@ -24,7 +24,7 @@ area_of_a_square(12.2)
 
 ```
 
-# Functions with Return Values
+# # Functions with Return Values
 
 If a function has a **return** keyword in the body, we can call it a **fruitful function** 
 ```python
@@ -61,4 +61,36 @@ def search(l: list, item: Any) -> int:
 			counter += 1
 
 	return -1
+```
+
+## Recursion
+
+Recursion is an elegant way to repeat a pattern.
+
+Fractals are examples of patterns that can be described recursively. 
+
+A recursive function must have three parts.
+
+1. A function
+2.  A call to itself inside of the body code block
+3. A base case. The base case is where the function stops calling itself. 
+
+## Fibonacci Sequence and Recursion
+
+```
+Fibonacci Sequence:
+1  2  3
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+	  x
+
+fib(1) = 1
+fib(2) = 1
+fib(3) = fib(2) + fib(1)
+       =      1 +      1
+fib(4) = fib(3)          + fib(2)
+       = fib(2) + fib(1) + fib(2)
+       = 1      + 1      + fib(2)
+       = 2               + 1
+       = 3
+fib(100) = fib(99) + fib(98)
 ```
