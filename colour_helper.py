@@ -29,23 +29,10 @@ def is_light(pixel: tuple) -> bool:
     Returns:
         True if pixel is light false if not
     """
-    red = pixel[0]
-    green = pixel[1]
-    blue = pixel[2]
+    return pixel >= (128, 128, 128)
 
-    average = (red + green + blue) / 3
+def pixel_to_grayscale(pixel: tuple) -> tuple:
+    """Returns a grayscale version of the given pixel"""
+    gray = int(pixel[0] * 0.3 + pixel[1] * 0.59 + pixel[2] * 0.11)
 
-    if average >= 128:
-        return True
-    else:
-        return False
-
-black=(0,0,0)
-dark_gray=(127,127,127)
-light_gray=(128,128,128)
-white=(255,255,255)
-
-print(is_light(black)) # False
-print(is_light(dark_gray)) # False
-print(is_light(light_gray)) # True
-print(is_light(white)) # True
+    return (gray, gray, gray)
