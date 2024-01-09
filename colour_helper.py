@@ -5,6 +5,11 @@
 # Do you need help with colours?
 # This is for you!!
 
+BLACK_PIXEL = (0, 0, 0)
+DARK_GRAY_PIXEL = (127, 127, 127)
+LIGHT_GRAY_PIXEL = (128, 128, 128)
+WHITE_PIXEL = (255, 255, 255)
+
 def pixel_to_string(pixel: tuple) -> str:
     """Take  rgb 3 tuple and "interperite it" as a colour and return that colour's name
     
@@ -19,6 +24,13 @@ def pixel_to_string(pixel: tuple) -> str:
 
     if g > 105 and r < 105 and b < 105:
         return "green"
+    # TODO: Implement detecting the colour red
+    # Red > 150, green <25, blue <25
+    if g < 25 and b < 25 and r > 150:
+        return "red"
+    
+print(pixel_to_string((160, 0, 4))) #red
+print(pixel_to_string((WHITE_PIXEL)))
 
 def is_light(pixel: tuple) -> bool:
     """Returns true if given pixel is "light"
