@@ -21,6 +21,8 @@ bad = ["I got very sick on Christmas day",
        "I had to do homework"
 ]
 
+#good_or_bad = input("How was your winter holidays?")
+
 def winter_holiday(good_or_bad: str) -> str:
     """Give a summary of our winetr holidays 2023 - 2024
     
@@ -30,23 +32,17 @@ def winter_holiday(good_or_bad: str) -> str:
     returns:
         an event that happended to you during the holidays the event is selected part"""
     
-    if good_or_bad == "good":
+    if good_or_bad.strip(",.?!") == "good":
         return random.choice(good)
-    elif good_or_bad == "bad":
+    elif good_or_bad.strip(",.?!") == "bad":
         return random.choice(bad)
 
 
 def main() -> None: 
     # Runs all the things we want to test in out .py file
-    print(winter_holiday("good"))
-    # "I went to calgary to see my family"
-    # "I got lots of chocolate"
-    print(winter_holiday("bad"))
-    # "I got very sick on Christmas day"
-    # "It ended ;-;"
-
-
+    print(winter_holiday(input("How was your winter holiday?")))
+    
 
 # If we're running this file using python
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
