@@ -10,27 +10,30 @@ DARK_GRAY_PIXEL = (127, 127, 127)
 LIGHT_GRAY_PIXEL = (128, 128, 128)
 WHITE_PIXEL = (255, 255, 255)
 
+
 def pixel_to_string(pixel: tuple) -> str:
-    """Take  rgb 3 tuple and "interperite it" as a colour and return that colour's name
-    
-    Params: 
+    """Take a rgb 3-tuple and "interpret it"
+    as a colour and return that colour's name
+
+    Params:
         pixel - 3-tuple of (red, green, blue)
 
     Return:
-        string representing the colour
+        String representing the colour
     """
+    r, g, b = pixel
 
-    r,g,b = pixel
-
-    if g > 105 and r < 105 and b < 105:
+    if g > 220 and r < 120 and b < 120:
         return "green"
-    # TODO: Implement detecting the colour red
-    # Red > 150, green <25, blue <25
     if g < 25 and b < 25 and r > 150:
         return "red"
-    
-print(pixel_to_string((160, 0, 4))) #red
-print(pixel_to_string((WHITE_PIXEL)))
+    if g >= 80 and b < 50 and r < 50:
+        return "jelly bean green"
+
+
+print(pixel_to_string((160, 0, 4)))  # red
+print(pixel_to_string(WHITE_PIXEL))
+
 
 def is_light(pixel: tuple) -> bool:
     """Returns true if given pixel is "light"
@@ -42,6 +45,7 @@ def is_light(pixel: tuple) -> bool:
         True if pixel is light false if not
     """
     return pixel >= (128, 128, 128)
+
 
 def pixel_to_grayscale(pixel: tuple) -> tuple:
     """Returns a grayscale version of the given pixel"""
