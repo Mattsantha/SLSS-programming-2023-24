@@ -24,3 +24,5 @@ def middle():
     return f'({mid_x}, {mid_y})'
 
 print(middle())
+
+red_ball_image.close()
