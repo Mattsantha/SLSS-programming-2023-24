@@ -31,8 +31,8 @@ def pixel_to_string(pixel: tuple) -> str:
         return "jelly bean green"
 
 
-print(pixel_to_string((160, 0, 4)))  # red
-print(pixel_to_string(WHITE_PIXEL))
+# print(pixel_to_string((160, 0, 4)))  # red
+# print(pixel_to_string(WHITE_PIXEL))
 
 
 def is_light(pixel: tuple) -> bool:
